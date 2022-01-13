@@ -5,7 +5,9 @@
      <head>
 	 
 <meta charset="UTF-8">
-  
+
+
+<link rel="shortcut icon" href="D:/No work/МОЙ САЙТ/Favicon/favicon.ico" type="image/x-icon">  
   
   
   
