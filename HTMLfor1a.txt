@@ -6,7 +6,10 @@
 	 
 <meta charset="UTF-8">
 
-<link rel="shortcut icon" href="D:/No work/МОЙ САЙТ/Favicon/favicon.ico" type="image/x-icon">
+<meta name="keywords" content="частный директолог, яндекс директ, директ, настойка директа">
+<meta name="discription" content="сайт визитка частного директолога">
+
+<link rel="shortcut icon" href="D:/No work/МОЙ САЙТ/Favicon/favicon.ico" type="image/x-icon"> <!--Это фавикон?-->
   
   
   
@@ -14,7 +17,7 @@
 <title>Частный директолог</title>
 
 <style>
- #topmenu {background:orange;padding: 0px;
+ #topmenu {background:none;padding: 0px;
   margin: 0px;
   list-style-type: none;}
  #topmenu li {display: inline-block;}
@@ -32,7 +35,7 @@
   background:red
   }
   
-  
+  #Myfoto {margin: 50px;padding: 0px;}
   
  
  </style>
@@ -44,7 +47,7 @@
    
      <body> 
 	      
-		  <div>
+		  <div align="center">    <!--верхнее меню-->
 		  
 		     <ul id="topmenu">
 			   
@@ -54,32 +57,51 @@
 				 <li><a href="#">Цены</a></li>
 				 
 			 </ul>
+			 
+			    <hr>
 			
 		  </div>	
 	
 		  
 		  
 		  
-		     <span>
+		     
 		  
-		  <div class="left">
+		  <div align="right" id="Myfoto"> <!--Это блок о том что я такое-->
 	 
 	         <img src="D:/No work/МОЙ САЙТ/Images/XYPxBZoFWAE.jpg" width="370px" alt="Тут должна быть моя фотография">
 			 
 			 <h1>Кто я такой?</h1>
 			 
-			 <p>Драститя! Меня зовут Никита. И я являюсь на данный момент директологом со стажем.<br>
-			    Я оказываю услуги по персональной настройке <strong>Яндекс-Директ</strong> для частного бизнесса.<br>
-				Если ваш бизнес лежит на дне и вы хотите чтобы он всплыл на поверхность, то вам ко мне.
-			 </p>	
+			 <p><pre><font size="4" Face="Times New Roman">Драститя! Меня зовут Никита. И я являюсь на данный момент директологом со стажем.
+			    Выпускник истарического факультета.<del>Не горжусь этим.</del> Мастер по приготовлению суши-роллов.
+				Знаток Английских языков и прогаммистических наук. А еще мама сказала, что я умный и красивый.
+			    
+			 </font></pre></p>	
    
    
-   
+          <hr>  
    
            </div>
 		  
-              </span> 
-			
+              
+		  
+          <div>	<!--Это второй блок о моих услугах-->
+		  
+		     <h2 align="center">Чем я собственно занимаюсь?</h2>
+			 
+			 
+			 
+			 <ol type="I">
+			     <li>Я оказываю услуги по персональной настройке рекламы в <strong>Яндекс-Директ</strong> для частного бизнесса.</li>
+				 <li>Веду аналитику. Вывожу сайты в топ по ключевым запросам в Яндексе. При этом привожу на сайт только <big> заитересованных</big>людей!</li>
+				 <li>Таким образом не допускаю слива рекламного бюджета в пустую, экономя ваши деньги. Помогаю вам зарабатывать.</li>
+		     </ol>		 
+			 
+			 
+		  
+		  </div>
+		  
    
    
 
