@@ -29,6 +29,10 @@
   margin: 2px;
   background: #FF8E00;}
   
+  .block {
+  display: display: inline-block; display: inline;
+}
+  
  
   
   #topmenu li a:hover {
@@ -37,6 +41,15 @@
   
   #Myfoto {margin: 50px;padding: 0px;}
   
+  #ReclamaCard {margin-left: 40px;padding: 0px;}
+  
+  #AnalisysSet {display : inline-block ; text-align: left;}
+  
+  #SupportCard {margin-right: 40px;padding: 0px; }
+  
+  #SupportSat {display : inline-block ; text-align: left;}
+  
+  #WhatYouWiilGetSatBlock {display : horizontal-line;}
  
  </style>
   
@@ -69,7 +82,7 @@
 		  
 		  <div align="right" id="Myfoto"> <!--Это блок о том что я такое-->
 	 
-	         <img src="D:/No work/МОЙ САЙТ/Images/XYPxBZoFWAE.jpg" width="370px" alt="Тут должна быть моя фотография">
+	         <img src="D:/No work/МОЙ САЙТ/Images/XYPxBZoFWAE.jpg" width="370px" alt="Тут должна быть моя фотография" vspace="20px">
 			 
 			 <h1>Кто я такой?</h1>
 			 
@@ -104,11 +117,76 @@
 		  
    
    
+          <hr><!--Здесь инфа о том почему со мной стоит сотрудничать-->
+		  
+		  <div align="justify" id="WhatYouWiilGet">
+		  
+		     <h2 align="center">Что вы получаете от сотрудничества со мной?</h2>
+			 
+		 <div class="block" id="WhatYouWiilGetSatBlock">
+			 
+			 <div align="left" id="ReclamaCard">
+			 
+			 <p><font size="6"><strong>Реклама</strong></font></p>
+			 <p>Которая приносит вам прибыль, если чо.</p>
+			 
+			 <ol>
+			     <li>Контерстная реклама</li>
+				 <li>SEO-Реклама</li>
+				 <li>Таргетированная реклама</li>
+				 <li>Релама на агрегаторах товаров/услуг</li>
+			 </ol>
+			 
+			 
+			 
+			 
+			 
+			 </div>
+			 
+			 <div align="center" id="AnalisysCard">
+			 
+			 <p><font size="6"><strong>Аналитика</strong></font></p>
+			 <p>Проанализирую ВАШ бизнесс и рекламу.<br> Это позволит увеличить выхлоп</p> 
+			 
+			 <ol id="AnalisysSet">
+			     <li>Аудит сайта-чтобы найти причину слива денег</li>
+				 <li>Еженедельный аудит-видеть как окупаются расходы рекламного бюджета</li>
+				 <li>Годовой аудит-выявить закономерности потребления</li>
+		     </ol>
+             <p> Знаете закономерности-знаете на что уходят ваши деньги!</p>
+             
+             			 
+				 
+				 
+				 
+			 </div>
+			 
+			 
+			 <div align="right" id="SupportCard">
+			 
+			 <p><font size="6"><strong>Поддержка и ведение</strong></font></p>
+			 <p>Управдяю вашей рекламой за вас</p>
+			 
+			 <ol id="SupportSat">
+			           <li>Контроль ставок</li>
+					   <li>Отключение дохлых ключей</li>
+					   <li>Добавление новых ключей</li>
+					   <li>И много всякого вкусного</li>
+			 </ol>		   
+			 <p>Каждый ВАШ рубль(ну,или доллар) пойдёт в дело!</p> 
+					   
+			 
+			 
+			 </div>
+	  
 
+             </div>
 
-
-
-
+            </div>
+			
+			
+			
+			
      </body> 
 
 
