@@ -29,8 +29,8 @@
   margin: 2px;
   background: #FF8E00;}
   
-  .block {
-  display: display: inline-block; display: inline;
+  #WhatYouWiilGetSatBlock {
+  vertical-align: top;
 }
   
  
@@ -45,11 +45,19 @@
   
   #AnalisysSet {display : inline-block ; text-align: left;}
   
-  #SupportCard {margin-right: 40px;padding: 0px; }
+  #SupportCard {margin-right: 40px;padding: 0px; Position: relative; }
   
   #SupportSat {display : inline-block ; text-align: left;}
   
   #WhatYouWiilGetSatBlock {display : horizontal-line;}
+  
+ 
+  
+ 
+  
+ 
+  
+  
  
  </style>
   
@@ -64,10 +72,10 @@
 		  
 		     <ul id="topmenu">
 			   
-		         <li><a href="#">Обо мне</a></li>
-                 <li><a href="#">Мои услуги</a></li>
-				 <li><a href="#">Почему я</a></li>
-				 <li><a href="#">Цены</a></li>
+		         <li><a href="#AboutMe">Обо мне</a></li>
+                 <li><a href="#MyServises">Мои услуги</a></li>
+				 <li><a href="#WhyMe">Почему я</a></li>
+				 <li><a href="#Prices">Цены</a></li>
 				 
 			 </ul>
 			 
@@ -82,7 +90,7 @@
 		  
 		  <div align="right" id="Myfoto"> <!--Это блок о том что я такое-->
 	 
-	         <img src="D:/No work/МОЙ САЙТ/Images/XYPxBZoFWAE.jpg" width="370px" alt="Тут должна быть моя фотография" vspace="20px">
+	         <img src="D:/No work/МОЙ САЙТ/Images/XYPxBZoFWAE.jpg" width="370px" alt="Тут должна быть моя фотография" title="Вот он я" vspace="20px">
 			 
 			 <h1>Кто я такой?</h1>
 			 
@@ -93,15 +101,16 @@
 			 </font></pre></p>	
    
    
-          <hr>  
+           
    
            </div>
-		  
+		   
+		  <hr> 
               
 		  
           <div>	<!--Это второй блок о моих услугах-->
 		  
-		     <h2 align="center">Чем я собственно занимаюсь?</h2>
+		     <h2 align="center"><a name="MyServises">Чем я собственно занимаюсь?</a></h2>
 			 
 			 
 			 
@@ -117,11 +126,18 @@
 		  
    
    
-          <hr><!--Здесь инфа о том почему со мной стоит сотрудничать-->
+          <hr width="100%"><!--Здесь инфа о том почему со мной стоит сотрудничать-->
 		  
 		  <div align="justify" id="WhatYouWiilGet">
 		  
-		     <h2 align="center">Что вы получаете от сотрудничества со мной?</h2>
+		     <h2 align="center"><a name="WhyMe">Что вы получаете от сотрудничества со мной?</a></h2>
+			 
+			 
+		 <table cellpadding="10px"> <!--3 списка заточенные в таблицу-->
+		 
+		 
+             <tr>
+             <td>			 
 			 
 		 <div class="block" id="WhatYouWiilGetSatBlock">
 			 
@@ -136,12 +152,18 @@
 				 <li>Таргетированная реклама</li>
 				 <li>Релама на агрегаторах товаров/услуг</li>
 			 </ol>
-			 
-			 
+			
+			 <p>Реклама двигатель торговли</p>
 			 
 			 
 			 
 			 </div>
+			 
+			 
+			 </td>
+			 
+			 
+			 <td>
 			 
 			 <div align="center" id="AnalisysCard">
 			 
@@ -162,6 +184,12 @@
 			 </div>
 			 
 			 
+			 </td>
+			 
+			 
+			 <td>
+			 
+			 
 			 <div align="right" id="SupportCard">
 			 
 			 <p><font size="6"><strong>Поддержка и ведение</strong></font></p>
@@ -178,12 +206,18 @@
 			 
 			 
 			 </div>
+			 
+			 </tr>
+			 </td>
+			 
+			 </table>
 	  
 
              </div>
 
             </div>
 			
+			<hr>
 			
 			
 			
