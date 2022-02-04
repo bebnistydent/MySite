@@ -11,55 +11,12 @@
 
 <link rel="shortcut icon" href="D:/No work/МОЙ САЙТ/Favicon/favicon.ico" type="image/x-icon"> <!--Это фавикон?-->
   
-  
+<link rel="stylesheet" href="style.css"> <!--Ссылка на файл со стилями--> 
   
   
 <title>Частный директолог</title>
 
-<style>
- #topmenu {background:none;padding: 0px;
-  margin: 0px;
-  list-style-type: none;}
- #topmenu li {display: inline-block;}
- #topmenu li a{color: #000;
-  text-decoration:none;
-  padding:0px;
-  display:block;
-  border:1px solid #FD8A2E;
-  margin: 2px;
-  background: #FF8E00;}
-  
-  #WhatYouWiilGetSatBlock {
-  vertical-align: top;
-}
-  
- 
-  
-  #topmenu li a:hover {
-  background:red
-  }
-  
-  #Myfoto {margin: 50px;padding: 0px;}
-  
-  #ReclamaCard {margin-left: 40px;padding: 0px;}
-  
-  #AnalisysSet {display : inline-block ; text-align: left;}
-  
-  #SupportCard {margin-right: 40px;padding: 0px; Position: relative; }
-  
-  #SupportSat {display : inline-block ; text-align: left;}
-  
-  #WhatYouWiilGetSatBlock {display : horizontal-line;}
-  
- 
-  
- 
-  
- 
-  
-  
- 
- </style>
+
   
 	   
 	   
