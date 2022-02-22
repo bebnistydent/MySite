@@ -24,6 +24,8 @@
    
    
      <body> 
+	 
+	 <header> <!--Тут верх сайта--> 
 	      
 		  <div align="center">    <!--верхнее меню-->
 		  
@@ -61,6 +63,8 @@
            
    
            </div>
+		   
+		</header>
 		   
 		  <hr> 
               
@@ -177,7 +181,55 @@
 			<hr>
 			
 			
+			<div align="center">
 			
+			<h2>Свяжитесь со мной через форму</h2>
+			
+		        <p><font size="5">Оставте свою заявку, и я обязательно свяжусь с вами!</font></p>
+			
+			<form action="mailto:smertskosoii@gmail.com" enctype="text/plain" method="post">
+			
+			<p><input name="имя" type="text" placeholder="Имя" maxlength="40" size="40"></p>
+			
+			<p><input name="фамилия" type="text" placeholder="Фамилия" maxlength="40" size="40"></p>
+			
+			<p><input name="Email" type="Email" placeholder="Емейл" maxlength="40" size="40"></p>
+			
+			<p><textarea id="textarea" cols="40" Name="comment" rows="10" maxlength="400" placeholder="Есть вопросы? Задавайте!"></textarea></p>
+			
+			<p>Как у вас с рекламой вообще?</p>
+			
+			<p><select name="select" size="7" multiple>
+			
+			<option selected value="s1">Шиикарно!</option>
+			<option selected="s2">Отлично</option>
+			<option selected="s3">Хорошо</option>
+			<option selected="s4">Нормально</option>
+			<option selected="s5">Бывало и лучше</option>
+			<option selected="s6">Плохо</option>
+			<option selected="s7">Жопень :-(</option>
+			
+			</select></p>
+		
+			
+			
+			
+			<button type="submit" border="0px">
+			
+			<img src="D:/No work/МОЙ САЙТ/кнопки/Кнопка ЖМИ.png" width="60xp" style="vertical-align:middle">
+			
+			</button>
+			
+			
+			
+			</form>
+			
+			</div>
+			
+			<hr>
+			
+			<footer>
+			</footer>
      </body> 
 
 
