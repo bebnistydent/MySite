@@ -14,32 +14,78 @@
   #WhatYouWiilGetSatBlock {
   vertical-align: top;
 }
+  header{ 
   
+  
+  
+  
+  }
  
   
   #topmenu li a:hover {
   background:red
   }
   
-  #Myfoto {margin: 50px;padding: 0px;}
+  .Myfoto {margin: 50px;padding: 0px;}
   
-  #ReclamaCard {margin-left: 40px;padding: 0px;}
+  .ReclamaCard {margin-left: 40px;padding: 0px;}
   
-  #AnalisysSet {display : inline-block ; text-align: left;}
+  .AnalisysSet {display : inline-block ; text-align: left;}
   
-  #SupportCard {margin-right: 40px;padding: 0px; Position: relative; }
+  .SupportCard {margin-right: 40px;padding: 0px; Position: relative; }
   
-  #SupportSat {display : inline-block ; text-align: left;}
+  .SupportSat {display : inline-block ; text-align: left;}
   
-  #WhatYouWiilGetSatBlock {display : horizontal-line;}
+  .WhatYouWiilGetSatBlock {display : horizontal-line; padding: 2px;}
   
   #textarea {resize: none;}
   
- 
+  .formfieldset { width: 600px;
+  padding: 20px;
+  }
   
- 
+  .nomberone {padding-left: 60px;}
+  #one {padding-left: 40px;}
+  .nombertwo {position: right-side; margin-left: 60px;}
+  .numbertree {padding-left: 60px;}
+  #tree {padding-left: 80px;}
+  #chestnost {padding-left: 60px;}
+  .numberfour {padding-left: 60px;}
+  #four {padding-left: 90px;}
+  #umerennost {padding-left: 60px;}
   
+  
+  
+  
+  
+  
+  
+  .Mytafifes{padding-left: 60px;
+             
+  }
  
+  .TarifNicacushii {
+	  
+  }
+  
+  .TarifNicacushiiPictyre {padding-left: 90px;
+	  
+  }
+  
+  .TarifNormalok{padding-left: 60px;
+	  
+  }
+  
+  .TarifNormalokPictyre{padding-left: 90px;
+	  
+  }
+  
+  .TarifSochnii{padding-left: 60px;
+  }
+  
+  .TarifSochniiPictype{padding-left: 90px;
+  }
+  
   
  
   

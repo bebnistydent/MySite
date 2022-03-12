@@ -25,9 +25,9 @@
    
      <body> 
 	 
-	 <header> <!--Тут верх сайта--> 
+	 <header class="site-header"> <!--Тут верх сайта--> 
 	      
-		  <div align="center">    <!--верхнее меню-->
+		  <div align="center" class="container">    <!--верхнее меню-->
 		  
 		     <ul id="topmenu">
 			   
@@ -47,7 +47,7 @@
 		  
 		     
 		  
-		  <div align="right" id="Myfoto"> <!--Это блок о том что я такое-->
+		  <div align="right" class="Myfoto" class="container"> <!--Это блок о том что я такое-->
 	 
 	         <img src="D:/No work/МОЙ САЙТ/Images/XYPxBZoFWAE.jpg" width="370px" alt="Тут должна быть моя фотография" title="Вот он я" vspace="20px">
 			 
@@ -85,11 +85,50 @@
 		  
 		  </div>
 		  
-   
+          <hr>
+		  
+		  
+		  <div name="Open div">
+		  
+		  <h2 align="center"> Мои принципы которых я придеживаюсь в работе это:</h2>
+		  <table class="Numberstable">
+		  <tr><td><div class="nomberone" align="left">
+		  <img src="D:/No work/МОЙ САЙТ/Images/Цифры/icons8-клавиша-1-60.png" id="one">
+		  <p>ОПЕРАТИВНОСТЬ</p>
+		  <p>Выполняю работу в срок и вовремя.<br>
+		     И не через жеопу!(Но это не точно)</p>
+		  </div></td>
+		  <td><div class="nombertwo" align="center">
+		  <img src="D:/No work/МОЙ САЙТ/Images/Цифры/icons8-клавиша-2-60.png">
+		  <p>ОККУРАТНОСТЬ</p>
+		  <p>Делаю чтоб всё было чётко, красиво.</br>
+		     И пацанам не стыдно было показать.</p>
+		  </div></td>
+		  
+		  <td><div class="numbertree">
+		  <img src="D:/No work/МОЙ САЙТ/Images/Цифры/icons8-клавиша-3-60.png" id="tree">
+		  <p id="chestnost">ЧЕСТНОСТЬ</p>
+		  <p>Если я соберусь взять с вас деньги,</br>
+		     и свалить с ними в Мексику, то я </br>
+			 скажу вам об этом заранее. Честно.</p>
+		  </div></td>	 
+		  
+		  <td><div class="numberfour">
+		  <img src="D:/No work/МОЙ САЙТ/Images/Цифры/icons8-клавиша-4-60.png" id="four">
+		  <p id="umerennost">УМЕРЕННОСТЬ</p>
+		  <p>Из-за перманентной неуверенность в<br>
+		     своих способностях, я стесняюсь<br>
+			 просить много денег за работу.</p>
+		  </div></td></tr>	 
+		  
+		  </table>
+		  
+		  
+		  </div>
    
           <hr width="100%"><!--Здесь инфа о том почему со мной стоит сотрудничать-->
 		  
-		  <div align="justify" id="WhatYouWiilGet">
+		  <div align="justify" class="WhatYouWiilGet">
 		  
 		     <h2 align="center"><a name="WhyMe">Что вы получаете от сотрудничества со мной?</a></h2>
 			 
@@ -100,9 +139,9 @@
              <tr>
              <td>			 
 			 
-		 <div class="block" id="WhatYouWiilGetSatBlock">
+		 <div class="block" class="WhatYouWiilGetSatBlock">
 			 
-			 <div align="left" id="ReclamaCard">
+			 <div align="left" class="ReclamaCard">
 			 
 			 <p><font size="6"><strong>Реклама</strong></font></p>
 			 <p>Которая приносит вам прибыль, если чо.</p>
@@ -126,12 +165,12 @@
 			 
 			 <td>
 			 
-			 <div align="center" id="AnalisysCard">
+			 <div align="center" class="AnalisysCard">
 			 
 			 <p><font size="6"><strong>Аналитика</strong></font></p>
 			 <p>Проанализирую ВАШ бизнесс и рекламу.<br> Это позволит увеличить выхлоп</p> 
 			 
-			 <ol id="AnalisysSet">
+			 <ol class="AnalisysSet">
 			     <li>Аудит сайта-чтобы найти причину слива денег</li>
 				 <li>Еженедельный аудит-видеть как окупаются расходы рекламного бюджета</li>
 				 <li>Годовой аудит-выявить закономерности потребления</li>
@@ -151,12 +190,12 @@
 			 <td>
 			 
 			 
-			 <div align="right" id="SupportCard">
+			 <div align="right" class="SupportCard">
 			 
 			 <p><font size="6"><strong>Поддержка и ведение</strong></font></p>
 			 <p>Управдяю вашей рекламой за вас</p>
 			 
-			 <ol id="SupportSat">
+			 <ol class="SupportSat">
 			           <li>Контроль ставок</li>
 					   <li>Отключение дохлых ключей</li>
 					   <li>Добавление новых ключей</li>
@@ -180,14 +219,104 @@
 			
 			<hr>
 			
+			<section class="Mytafifes">
+			
+			<h2 align="center">Тарифы на мои выдающиеся услуги</h2>
+			<table>
+			 
+			     <th>
+				 
+				 <td class="TarifNicacushii">
+				 
+				 <h2>Тариф "Никакущий"</h2>
+				 <div class="TarifNicacushiiPictyre">
+				 
+				 <img src="D:/No work/МОЙ САЙТ/Images/SVG картинки/sadsmiley_85787.svg" width="70px">
+				 </div>
+				 
+				 <p>Что в нем есть?</p>
+				 
+				 <ol>
+				    <li><p>Оценка масштаба трагедии у вашей рекламы</p></li>
+					<li><p>Моё искренней сочуствие, с пожеланием удачи<br>
+					       и хорошего настроения</p></li>
+				 </ol>		   
+				 
+				 <h4>Стоимость: 50$</h4>
+				 <input type="submit" value="Заказать">
+				 
+				 </td>
+				 
+				 
+				 <td class="TarifNormalok">
+				 
+				 <h2>ТариФ "Нормалёк"</h2>
+				 
+				 <div class="TarifNormalokPictyre">
+				 <img src="D:/No work/МОЙ САЙТ/Images/SVG картинки/emoticon-neutral-face-outline_icon-icons.com_64287.svg" width="70px">
+				 </div>
+				 
+				 <p>А что сдесь?</p>
+				 
+				 <ol>
+				    <li><p>Детальный анализ рекламы и бизнесса в целом.</p></li>
+					<li><p>Настройка рекламной компании +ведение 2 недели.</p></li>
+					<li><p>Советы на будущее, чтоб больше такого не было.</p></li>
+				 </ol>	
+				 
+				 <h4>Стоимость: 150$</h4>
+				 <input type="submit" value="Заказать">
+				 
+				 </td>
+				 
+				 
+				 <td class="TarifSochnii">
+				 
+				 <h2>Тариф "Сочный"</h2>
+				 
+				 <div class="TarifSochniiPictype">
+				 <img src="D:/No work/МОЙ САЙТ/Images/SVG картинки/smiling-face-with-sunglasses_icon-icons.com_64326.svg" width="70px">
+				 </div>
+				 
+				 <p>А тут?</p>
+				 
+				 <ol>
+				    <li><p>Всё тоже что и в предидушем тарифе</p></li>
+					<li><p>Разарботка полноценной рекламной стратегии</p></li>
+					<li><p>Бесплатно удовлетворю вашу жену пока вы на работе</p></li>
+				 </ol>
+
+                 <h4>Стоимость: 500$</h4>
+                 <input type="submit" value="Заказать">				 
+				 
+				 </td>
+				 
+				 
+				 
+				 </th>
+			
+			
+			
+			
+			
+			
+			
+			</table>
+			</section>
+			
+			<hr>
+			
+			
 			
 			<div align="center">
 			
+			<fieldset class="formfieldset">
+			
 			<h2>Свяжитесь со мной через форму</h2>
 			
-		        <p><font size="5">Оставте свою заявку, и я обязательно свяжусь с вами!</font></p>
+		    <p><font size="5">Оставте свою заявку, и я обязательно свяжусь с вами!</font></p>
 			
-			<form action="mailto:smertskosoii@gmail.com" enctype="text/plain" method="post">
+			<form action="mailto:smertskosoii@gmail.com" enctype="text/plain" method="post"> 
 			
 			<p><input name="имя" type="text" placeholder="Имя" maxlength="40" size="40"></p>
 			
@@ -213,7 +342,6 @@
 		
 			
 			
-			
 			<button type="submit" border="0px">
 			
 			<img src="D:/No work/МОЙ САЙТ/кнопки/Кнопка ЖМИ.png" width="60xp" style="vertical-align:middle">
@@ -222,9 +350,14 @@
 			
 			
 			
+			
 			</form>
 			
+			</fieldset>
+			
 			</div>
+			
+			
 			
 			<hr>
 			
