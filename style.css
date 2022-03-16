@@ -29,21 +29,24 @@ header{                                    /*Это хеадер*/
 
 
 
- .topmenu {background:none;padding: 0px;
+ .topmenu {background:none;padding: 10px;
   margin: 0px;
   list-style-type: none;}
  .topmenu li {display: inline-block;}
  .topmenu li a{color: #000;
   text-decoration:none;
-  padding:0px;
+  padding:10px;
   display:block;
   border:1px solid;
-  margin: 2px;
+  margin: 9px;
   background: none;}
   
   .topmenu li a:hover {
-  background:red
+  background:blue;
   }
+  
+  
+  
   
     .WhatYouWiilGetSatBlock {
   vertical-align: top;
