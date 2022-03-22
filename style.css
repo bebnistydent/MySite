@@ -98,11 +98,24 @@ header{                                    /*Это хеадер*/
 	  
   }
   
+  .TarifNicacushiiButton{padding-top: 17px;
+	                     
+	  
+  }
+  
+  
+  
   .TarifNormalok{padding-left: 60px;
+                 
 	  
   }
   
   .TarifNormalokPictyre{padding-left: 90px;
+	  
+  }
+  
+  .TarifNormalokText{
+	  
 	  
   }
   
@@ -113,7 +126,9 @@ header{                                    /*Это хеадер*/
   }
   
   
- 
+ .TarifSochniiButton{padding-top: 22px;
+	 
+ }
   
   
  

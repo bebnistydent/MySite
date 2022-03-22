@@ -9,7 +9,7 @@
 <meta name="keywords" content="частный директолог, яндекс директ, директ, настойка директа">
 <meta name="description" content="сайт визитка частного директолога">
 
-<link rel="shortcut icon" href="D:/No work/МОЙ САЙТ/Favicon/favicon.ico" type="image/x-icon"> <!--Это фавикон?-->
+<link rel="shortcut icon" href="D:/No work/МОЙ САЙТ/Favicon/favicon.ico" type="image/x-icon"> <!--Это фавикон-->
   
 <link rel="stylesheet" href="style.css"> <!--Ссылка на файл со стилями--> 
 
@@ -79,14 +79,14 @@
 		   
 		   </div>
 		   
-		   <section>
+		   </section>
 		   
 		</header> <!--КОНЕЦ шапки сайт-->
 		   
 		  <hr> 
               
-		  
-          <div>	<!--Это второй блок о моих услугах-->
+		  <section> <!--Это второй блок о моих услугах. Что я делаю.-->
+          <div>	
 		  
 		     <h2 align="center"><a name="MyServises">Чем я собственно занимаюсь?</a></h2>
 			 
@@ -101,9 +101,12 @@
 			 
 		  
 		  </div>
+		  </section>
 		  
           <hr>
 		  
+		  
+		  <section> <!--Блок о моих рабочих принципах-->
 		  
 		  <div name="Open div">
 		  
@@ -142,10 +145,18 @@
 		  
 		  
 		  </div>
-   
-          <hr width="100%"><!--Здесь инфа о том почему со мной стоит сотрудничать-->
 		  
-		  <div align="justify" class="WhatYouWiilGet">
+		  </section>
+		  
+		  
+   
+          <hr width="100%">
+		  
+		  
+		  
+		  <section> <!--Здесь инфа о том почему со мной стоит сотрудничать-->
+		  
+		  <div align="justify" class="WhatYouWiilGet"> 
 		  
 		     <h2 align="center"><a name="WhyMe">Что вы получаете от сотрудничества со мной?</a></h2>
 			 
@@ -234,9 +245,13 @@
 
             </div>
 			
+			
+			</section>
+			
+			
 			<hr>
 			
-			<section class="Mytafifes">
+			<section class="Mytafifes"> <!--Блок о тарифах на мои услуги-->
 			
 			<h2 align="center">Тарифы на мои выдающиеся услуги</h2>
 			<table>
@@ -257,17 +272,21 @@
 				    <li><p>Оценка масштаба трагедии у вашей рекламы</p></li>
 					<li><p>Моё искренней сочуствие, с пожеланием</br>
 					       удачи и хорошего настроения</p></li>
-				 </ol>		   
+				 </ol>
+				 
+				 <div class="TarifNicacushiiButton">
 				 
 				 <h4>Стоимость: 50$</h4>
 				 <input type="submit" value="Заказать">
+				 
+				 </div>
 				 
 				 </td>
 				 
 				 
 				 <td class="TarifNormalok">
 				 
-				 <h2>ТариФ "Нормалёк"</h2>
+				 <h2>Тариф "Нормалёк"</h2>
 				 
 				 <div class="TarifNormalokPictyre">
 				 <img src="D:/No work/МОЙ САЙТ/Images/SVG картинки/emoticon-neutral-face-outline_icon-icons.com_64287.svg" width="70px">
@@ -275,7 +294,7 @@
 				 
 				 <p>А что сдесь?</p>
 				 
-				 <ol>
+				 <ol class="TarifNormalokText">
 				    <li><p>Детальный анализ рекламы и бизнесса в целом.</p></li>
 					<li><p>Настройка рекламной компании +ведение 2 недели.</p></li>
 					<li><p>Советы на будущее, чтоб больше такого не было.</p></li>
@@ -302,9 +321,13 @@
 					<li><p>Разарботка полноценной рекламной стратегии</p></li>
 					<li><p>Бесплатно удовлетворю вашу жену пока вы на работе</p></li>
 				 </ol>
+				 
+				 <div class="TarifSochniiButton">
 
                  <h4>Стоимость: 500$</h4>
                  <input type="submit" value="Заказать">				 
+				 
+				 </div>
 				 
 				 </td>
 				 
@@ -323,6 +346,8 @@
 			
 			<hr>
 			
+			
+			<section> <!--Это Форма захвата-->
 			
 			
 			<div align="center">
@@ -374,6 +399,8 @@
 			
 			</div>
 			
+			
+			</section>
 			
 			
 			<hr>
