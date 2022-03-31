@@ -11,7 +11,7 @@
 
 <link rel="shortcut icon" href="D:/No work/МОЙ САЙТ/Favicon/favicon.ico" type="image/x-icon"> <!--Это фавикон-->
   
-<link rel="stylesheet" href="style.css"> <!--Ссылка на файл со стилями--> 
+<link rel="stylesheet" href="style.css"> <!--Ссылка на файл со стилями-->                                                                                                                                         
 
 <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"><!--А это типо ссыль на файл с эмодзи в нэте. Который РАБОТАЕТ!-->
   
@@ -90,12 +90,16 @@
 		  
 		     <h2 align="center"><a name="MyServises">Чем я собственно занимаюсь?</a></h2>
 			 
+			 <p class="Whatdoido"> В общем, я далеко не последний человек в директологии. Не первый тоже, но всетаки.. Я начинал свой путь с самого нуля. Совержил множество ошибок
+			     и прохавал эту тему в доль и поперёк. Кароче говоря, я шарю в том что я делаю, не волнуйтесь. Волноваться за вас буду я. И сушить мозг над вашей рекламой,
+				 тоже я буду.</p> <br>
+				  <p class="Whatdoido">Итак:</p>
 			 
 			 
-			 <ol type="I">
-			     <li>Я оказываю услуги по персональной настройке рекламы в <strong>Яндекс-Директ</strong> для частного бизнесса.</li>
-				 <li>Веду аналитику. Вывожу сайты в топ по ключевым запросам в Яндексе. При этом привожу на сайт только <big> заитересованных</big>людей!</li>
-				 <li>Таким образом не допускаю слива рекламного бюджета в пустую, экономя ваши деньги. Помогаю вам зарабатывать.</li>
+			 <ol type="I" class="ColorMark">
+			     <li><span>Я оказываю услуги по персональной настройке рекламы в <strong>Яндекс-Директ</strong> для частного бизнесса.</span></li>
+				 <li><span>Веду аналитику. Вывожу сайты в топ по ключевым запросам в Яндексе. При этом привожу на сайт только <big> заитересованных</big>людей!</span></li>
+				 <li><span>Таким образом не допускаю слива рекламного бюджета в пустую, экономя ваши деньги. Помогаю вам зарабатывать.</span></li>
 		     </ol>		 
 			 
 			 
@@ -136,8 +140,8 @@
 		  <td><div class="numberfour">
 		  <img src="D:/No work/МОЙ САЙТ/Images/Цифры/icons8-клавиша-4-60.png" id="four">
 		  <p id="umerennost">УМЕРЕННОСТЬ</p>
-		  <p>Из-за перманентной неуверенность в<br>
-		     своих способностях, я стесняюсь<br>
+		  <p>Из-за перманентной неуверенности<br>
+		     в своих способностях, я стесняюсь<br>
 			 просить много денег за работу.</p>
 		  </div></td></tr>	 
 		  
@@ -171,8 +175,12 @@
 			 
 			 <div align="left" class="ReclamaCard">
 			 
-			 <p><font size="6"><strong>Реклама</strong></font></p>
+			 <h3><font size="6"><strong>Реклама</strong></font></h3>
 			 <p>Которая приносит вам прибыль, если чо.</p>
+			 <figure>
+			 <img src="D:/No work/МОЙ САЙТ/Images/FigureIMG/Reclama.png" width="230px">
+			 <figcaption>В основном в Яндексе.</figcaption>
+             </figure>			 
 			 
 			 <ol>
 			     <li>Контерстная реклама</li>
@@ -195,8 +203,12 @@
 			 
 			 <div align="center" class="AnalisysCard">
 			 
-			 <p><font size="6"><strong>Аналитика</strong></font></p>
+			 <h3><font size="6"><strong>Аналитика</strong></font></h3>
 			 <p>Проанализирую ВАШ бизнесс и рекламу.<br> Это позволит увеличить выхлоп</p> 
+			 <figure>
+			 <img src="D:/No work/МОЙ САЙТ/Images/FigureIMG/Analitika.png" width="230px">
+			 <figcaption>Заанализирую по полной</figcaption>
+			 </figure>
 			 
 			 <ol class="AnalisysSet">
 			     <li>Аудит сайта-чтобы найти причину слива денег</li>
@@ -220,16 +232,19 @@
 			 
 			 <div align="right" class="SupportCard">
 			 
-			 <p><font size="6"><strong>Поддержка и ведение</strong></font></p>
+			 <h3><font size="6"><strong>Поддержка и ведение</strong></font></h3>
 			 <p>Управдяю вашей рекламой за вас</p>
-			 
+			 <figure>
+			 <img src="D:/No work/МОЙ САЙТ/Images/FigureIMG/Poddergka.jpg" height="140px">
+			 <figcaption>Ну, не 24 ч прям. Но тоже норм</figcaption>
+			 </figure>
 			 <ol class="SupportSat">
 			           <li>Контроль ставок</li>
 					   <li>Отключение дохлых ключей</li>
 					   <li>Добавление новых ключей</li>
 					   <li>И много всякого вкусного</li>
 			 </ol>		   
-			 <p>Каждый ВАШ рубль(ну,или доллар) пойдёт в дело!</p> 
+			 <p class="SupportEverydollar">Каждый ВАШ рубль(ну,или доллар) пойдёт в дело!</p> 
 					   
 			 
 			 
@@ -403,9 +418,18 @@
 			</section>
 			
 			
-			<hr>
+			<hr size="4px" class="footer-hr">
 			
-			<footer>
+			<footer class="footer">
+			<p align="center"><font size="6">&#167;</font></p>
+			<p align="center">Тут пока ничё нет, но будет. Скоро)А пока тут только котик.</p>
+			<p><pre>
+                                                       /\_/\
+                                                      ( o.o )
+                                                       = ^ =
+			
+			</pre></p>
+			<p align="center">&copy;Никита Еремеев</p>
 			</footer>
      </body> 
 

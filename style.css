@@ -23,8 +23,7 @@ header{                                    /*Это хеадер*/
 	
 }
 
-
-
+ 
 
 
 
@@ -45,22 +44,41 @@ header{                                    /*Это хеадер*/
   background:blue;
   }
   
+  .ColorMark li span {
+	 color: black;
+ }
+ 
+ .ColorMark li {
+	 color: red;
+ }
   
-  
-  
+  .Whatdoido {margin-left: 25px;
+	 
+ }
+ 
     .WhatYouWiilGetSatBlock {
   vertical-align: top;
 }
   
   .Myfoto {margin: 50px;padding: 0px;}
   
-  .ReclamaCard {margin-left: 40px;padding: 0px;}
+  .ReclamaCard {margin-left: 40px; 
+               padding: 0px;}
   
-  .AnalisysSet {display : inline-block ; text-align: left;}
+  .AnalisysSet {display : inline-block ; 
+               text-align: left;}
   
-  .SupportCard {margin-right: 40px;padding: 0px; Position: relative; }
+  .SupportCard {margin-right: 40px; 
+               padding: 0px; 
+			   Position: relative; 
+			   margin-top: 50px; }
   
-  .SupportSat {display : inline-block ; text-align: left;}
+  
+  .SupportSat {display : inline-block ; 
+              text-align: left;}
+  
+  
+  .SupportEverydollar {margin-top: 15px;}
   
   .WhatYouWiilGetSatBlock {display : horizontal-line; padding: 2px;}
   
@@ -71,13 +89,24 @@ header{                                    /*Это хеадер*/
   }
   
   .nomberone {padding-left: 60px;}
+  
   #one {padding-left: 40px;}
-  .nombertwo {position: right-side; margin-left: 60px;}
+  
+  .nombertwo {position: right-side; 
+             margin-left: 60px; 
+             margin-top: -14px;}
+			 
   .numbertree {padding-left: 60px;}
+  
   #tree {padding-left: 80px;}
+  
   #chestnost {padding-left: 60px;}
-  .numberfour {padding-left: 60px;}
+  
+  .numberfour {padding-left: 60px;
+              margin-bottom: 40px;}
+  
   #four {padding-left: 90px;}
+  
   #umerennost {padding-left: 60px;}
   
   
@@ -130,5 +159,26 @@ header{                                    /*Это хеадер*/
 	 
  }
   
-  
+ .footer{
+	 background-color: #4169E1;
+	 border: solid;
+	 border-color: #808080;
+	 padding-left: none;
+	 
+	 
+ }
+ 
+ .footer-hr{
+	 background-color: #1B1DEB;
+	 
+	 
+	 
+	 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
  
