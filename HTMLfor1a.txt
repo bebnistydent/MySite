@@ -9,7 +9,7 @@
 <meta name="keywords" content="частный директолог, яндекс директ, директ, настойка директа">
 <meta name="description" content="сайт визитка частного директолога">
 
-<link rel="shortcut icon" href="D:/No work/МОЙ САЙТ/Favicon/favicon.ico" type="image/x-icon"> <!--Это фавикон-->
+<link rel="shortcut icon" href="D:/No work/MY SITE/Favicon/favicon.ico" type="image/x-icon"> <!--Это фавикон-->
   
 <link rel="stylesheet" href="style.css"> <!--Ссылка на файл со стилями-->                                                                                                                                         
 
@@ -27,7 +27,7 @@
    
      <body> 
 	 
-	 <header> <!--Тут ШАПКА сайта--> 
+	 <header class="page-header"> <!--Тут ШАПКА сайта--> 
 	 
 	        <section class="Bloc-about-me-and-mainMeny">
 			
@@ -46,7 +46,7 @@
 			 
 		   </nav>
 		   
-			    <hr size="4px" class="header-hr">
+			   <hr size="4px" class="header-hr">
 			
 		  
 		  
@@ -58,11 +58,11 @@
 		  
 		  <div align="right" class="Myfoto" class="containerPhoto"> <!--Это блок о том что я такое-->
 	 
-	         <img src="D:/No work/МОЙ САЙТ/Images/XYPxBZoFWAE.jpg" width="370px" alt="Тут должна быть моя фотография" title="Вот он я" vspace="20px">
+	         <img src="D:/No work/MY SITE/Images/XYPxBZoFWAE.jpg" width="370px" alt="Тут должна быть моя фотография" title="Вот он я" vspace="20px">
 			 
 			 <h1>Кто я такой?</h1>
 			 
-			 <pre><p><font size="4" Face="Times New Roman">Драститя! Меня зовут Никита. И я являюсь на данный момент директологом со стажем.
+			 <pre><p class="MainText"><font size="4" Face="Times New Roman">Драститя! Меня зовут Никита. И я являюсь на данный момент директологом со стажем.
 			    Выпускник истарического факультета.<del>Не горжусь этим.</del> Мастер по приготовлению суши-роллов.
 				Знаток Английских языков и прогаммистических наук. А еще мама сказала, что я умный и красивый!
 				
@@ -83,12 +83,12 @@
 		   
 		</header> <!--КОНЕЦ шапки сайт-->
 		   
-		  <hr> 
+		 
               
-		  <section> <!--Это второй блок о моих услугах. Что я делаю.-->
-          <div>	
+		  <section Class="CectionWhatdoido"> <!--Это второй блок о моих услугах. Что я делаю.-->
+          <div title="Расскажу какой я классный">	
 		  
-		     <h2 align="center"><a name="MyServises">Чем я собственно занимаюсь?</a></h2>
+		     <h2 align="center" Class="CectionWhatdoido_h2"><a name="MyServises">Чем я собственно занимаюсь?</a></h2>
 			 
 			 <p class="Whatdoido"> В общем, я далеко не последний человек в директологии. Не первый тоже, но всетаки.. Я начинал свой путь с самого нуля. Совержил множество ошибок
 			     и прохавал эту тему в доль и поперёк. Кароче говоря, я шарю в том что я делаю, не волнуйтесь. Волноваться за вас буду я. И сушить мозг над вашей рекламой,
@@ -110,27 +110,27 @@
           <hr>
 		  
 		  
-		  <section> <!--Блок о моих рабочих принципах-->
+		  <section class="MyPrincipalsSection"> <!--Блок о моих рабочих принципах-->
 		  
 		  <div name="Open div">
 		  
-		  <h2 align="center"> Мои принципы которых я придеживаюсь в работе это:</h2>
+		  <h2 align="center" class="MyPrincipalsSection_h2"> Мои принципы которых я придеживаюсь в работе это:</h2>
 		  <table class="Numberstable">
 		  <tr><td><div class="nomberone" align="left">
-		  <img src="D:/No work/МОЙ САЙТ/Images/Цифры/icons8-клавиша-1-60.png" id="one">
+		  <img src="D:/No work/MY SITE/Images/Цифры/icons8-клавиша-1-60.png" id="one">
 		  <p>ОПЕРАТИВНОСТЬ</p>
 		  <p>Выполняю работу в срок и вовремя.<br>
 		     И не через жеопу!(Но это не точно)</p>
 		  </div></td>
 		  <td><div class="nombertwo" align="center">
-		  <img src="D:/No work/МОЙ САЙТ/Images/Цифры/icons8-клавиша-2-60.png">
+		  <img src="D:/No work/MY SITE/Images/Цифры/icons8-клавиша-2-60.png">
 		  <p>ОККУРАТНОСТЬ</p>
 		  <p>Делаю чтоб всё было чётко, красиво.</br>
 		     И пацанам не стыдно было показать.</p>
 		  </div></td>
 		  
 		  <td><div class="numbertree">
-		  <img src="D:/No work/МОЙ САЙТ/Images/Цифры/icons8-клавиша-3-60.png" id="tree">
+		  <img src="D:/No work/MY SITE/Images/Цифры/icons8-клавиша-3-60.png" id="tree">
 		  <p id="chestnost">ЧЕСТНОСТЬ</p>
 		  <p>Если я соберусь взять с вас деньги,</br>
 		     и свалить с ними в Мексику, то я </br>
@@ -138,7 +138,7 @@
 		  </div></td>	 
 		  
 		  <td><div class="numberfour">
-		  <img src="D:/No work/МОЙ САЙТ/Images/Цифры/icons8-клавиша-4-60.png" id="four">
+		  <img src="D:/No work/MY SITE/Images/Цифры/icons8-клавиша-4-60.png" id="four">
 		  <p id="umerennost">УМЕРЕННОСТЬ</p>
 		  <p>Из-за перманентной неуверенности<br>
 		     в своих способностях, я стесняюсь<br>
@@ -158,7 +158,7 @@
 		  
 		  
 		  
-		  <section> <!--Здесь инфа о том почему со мной стоит сотрудничать-->
+		  <section Class="WhatYouWiilGetSection"> <!--Здесь инфа о том почему со мной стоит сотрудничать-->
 		  
 		  <div align="justify" class="WhatYouWiilGet"> 
 		  
@@ -178,7 +178,7 @@
 			 <h3><font size="6"><strong>Реклама</strong></font></h3>
 			 <p>Которая приносит вам прибыль, если чо.</p>
 			 <figure>
-			 <img src="D:/No work/МОЙ САЙТ/Images/FigureIMG/Reclama.png" width="230px">
+			 <img src="D:/No work/MY SITE/Images/FigureIMG/Reclama.png" width="230px">
 			 <figcaption>В основном в Яндексе.</figcaption>
              </figure>			 
 			 
@@ -206,7 +206,7 @@
 			 <h3><font size="6"><strong>Аналитика</strong></font></h3>
 			 <p>Проанализирую ВАШ бизнесс и рекламу.<br> Это позволит увеличить выхлоп</p> 
 			 <figure>
-			 <img src="D:/No work/МОЙ САЙТ/Images/FigureIMG/Analitika.png" width="230px">
+			 <img src="D:/No work/MY SITE/Images/FigureIMG/Analitika.png" width="230px">
 			 <figcaption>Заанализирую по полной</figcaption>
 			 </figure>
 			 
@@ -235,7 +235,7 @@
 			 <h3><font size="6"><strong>Поддержка и ведение</strong></font></h3>
 			 <p>Управдяю вашей рекламой за вас</p>
 			 <figure>
-			 <img src="D:/No work/МОЙ САЙТ/Images/FigureIMG/Poddergka.jpg" height="140px">
+			 <img src="D:/No work/MY SITE/Images/FigureIMG/Poddergka.jpg" height="140px">
 			 <figcaption>Ну, не 24 ч прям. Но тоже норм</figcaption>
 			 </figure>
 			 <ol class="SupportSat">
@@ -266,10 +266,11 @@
 			
 			<hr>
 			
-			<section class="Mytafifes"> <!--Блок о тарифах на мои услуги-->
+			<section class="MytafifesSection" id="Prices"> <!--Блок о тарифах на мои услуги-->
 			
 			<h2 align="center">Тарифы на мои выдающиеся услуги</h2>
 			<table>
+			
 			 
 			     <th>
 				 
@@ -278,7 +279,7 @@
 				 <h2>Тариф "Никакущий"</h2>
 				 <div class="TarifNicacushiiPictyre">
 				 
-				 <img src="D:/No work/МОЙ САЙТ/Images/SVG картинки/sadsmiley_85787.svg" width="70px">
+				 <img src="D:/No work/MY SITE/Images/SVG картинки/sadsmiley_85787.svg" width="70px">
 				 </div>
 				 
 				 <p>Что в нем есть?</p>
@@ -304,7 +305,7 @@
 				 <h2>Тариф "Нормалёк"</h2>
 				 
 				 <div class="TarifNormalokPictyre">
-				 <img src="D:/No work/МОЙ САЙТ/Images/SVG картинки/emoticon-neutral-face-outline_icon-icons.com_64287.svg" width="70px">
+				 <img src="D:/No work/MY SITE/Images/SVG картинки/emoticon-neutral-face-outline_icon-icons.com_64287.svg" width="70px">
 				 </div>
 				 
 				 <p>А что сдесь?</p>
@@ -326,7 +327,7 @@
 				 <h2>Тариф "Сочный"</h2>
 				 
 				 <div class="TarifSochniiPictype">
-				 <img src="D:/No work/МОЙ САЙТ/Images/SVG картинки/smiling-face-with-sunglasses_icon-icons.com_64326.svg" width="70px">
+				 <img src="D:/No work/MY SITE/Images/SVG картинки/smiling-face-with-sunglasses_icon-icons.com_64326.svg" width="70px">
 				 </div>
 				 
 				 <p>А тут?</p>
@@ -362,7 +363,7 @@
 			<hr>
 			
 			
-			<section> <!--Это Форма захвата-->
+			<section class="CartureFormSection"> <!--Это Форма захвата-->
 			
 			
 			<div align="center">
@@ -373,7 +374,7 @@
 			
 		    <p><font size="5">Оставте свою заявку, и я обязательно свяжусь с вами!</font></p>
 			
-			<form action="mailto:smertskosoii@gmail.com" enctype="text/plain" method="post"> 
+			<form action="mailto:smertskosoii@gmail.com?subject=Вопрос по рекламе" enctype="text/plain" method="post"?> 
 			
 			<p><input name="имя" type="text" placeholder="Имя" maxlength="40" size="40"></p>
 			
@@ -398,14 +399,15 @@
 			</select></p>
 		
 			
+			<!--
+			<button type="submit" border="0px"> 
 			
-			<button type="submit" border="0px">
+			<img src="D:/No work/MY SITE/кнопки/Кнопка ЖМИ.png" width="60xp" style="vertical-align:middle">
 			
-			<img src="D:/No work/МОЙ САЙТ/кнопки/Кнопка ЖМИ.png" width="60xp" style="vertical-align:middle">
-			
-			</button>
+			</button> <!--Заблоченая кнопка-->
 			
 			
+			<input type="button" value="Жми Блеать!" class="button blue"> <!--Работающая кнопка-->
 			
 			
 			</form>

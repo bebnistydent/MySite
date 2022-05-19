@@ -1,4 +1,12 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
 header{                                    /*Это хеадер*/
       background-color: none;
       border: solid;
@@ -10,15 +18,22 @@ header{                                    /*Это хеадер*/
   
   }
   
-  
+   
+header.page-header{
+	 margin-bottom: 0px;
+ }
   
  p{                        /*Это форматирование разхмеров ТЕКСТА в <P> пункте. Незнаю зачем, но пока пусть будет*/
     font-size: 1.2em;    
     font-size: 2.4ex;   
  }
  
-
-	
+ hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #1B1DEB; /* Цвет линии для остальных браузеров */
+    background-color: #1B1DEB; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+   }
 	
 }
   
@@ -28,8 +43,10 @@ header{                                    /*Это хеадер*/
 	
 }
 
-.header-hr{background-color:#1B1DEB;
-           margin-top: -4px;}
+.header-hr{margin-top: -4px;
+
+}
+ 
 
 .header-content{background-color: #F5F5DC;   /*Это отвечает за стиль первого блока под меню*/
                 margin-bottom: -50px;
@@ -68,14 +85,67 @@ header{                                    /*Это хеадер*/
  }
  
  .ColorMark li {
-	 color: red;
- }
-  
-  .Whatdoido {margin-left: 25px;
-	         margin-right: 40px;
+	 color: red; 
  }
  
-    .WhatYouWiilGetSatBlock {
+ 
+ 
+ 
+  .CectionWhatdoido{
+	         background-color: #f5f5f5;
+			  margin-bottom: -17px;
+			  margin-top: -20px;
+			  padding-top: 0px;
+			  padding-bottom: 10px;
+ 
+  }
+  h2.CectionWhatdoido_h2{
+	  padding-top: 15px;
+  }
+  
+  section.MyPrincipalsSection{
+	           background-color: #F5F5DC;
+			   margin-top: -19px;
+			   margin-bottom: -10px;
+			   padding-top: -12px;
+			   
+  }
+  h2.MyPrincipalsSection_h2{
+	  padding-top: 15px;
+  }
+  
+  
+  .WhatYouWiilGetSection{
+	           background-color: #f5f5f5;
+			   margin-top: -8px;
+			   margin-bottom: -10px;
+			   padding-top: 10px;	  
+	  
+  }
+  
+  .MytafifesSection{padding-left: 60px;
+                    background-color: #F5F5DC;
+					margin-top: -8px;
+					margin-bottom:-8px;
+					padding-top: 10px;
+					padding-bottom: 10px;
+					
+             
+  }
+  
+  .CartureFormSection{background-color: #f5f5f5;
+                     margin-bottom: -5px;
+	  
+  }
+  
+  
+  
+  p.Whatdoido {margin-left: 25px;
+	         margin-right: 40px;
+			 
+ }
+ 
+  div.WhatYouWiilGetSatBlock {
   vertical-align: top;
 }
   
@@ -111,6 +181,7 @@ header{                                    /*Это хеадер*/
   
   .formfieldset { width: 600px;
   padding: 20px;
+  background-color: #ffffff;
   }
   
   .nomberone {padding-left: 60px;}
@@ -140,9 +211,7 @@ header{                                    /*Это хеадер*/
   
   
   
-  .Mytafifes{padding-left: 60px;
-             
-  }
+  
  
   .TarifNicacushii {
 	  
@@ -184,6 +253,16 @@ header{                                    /*Это хеадер*/
 	 
  }
   
+  section.CartureFormSection{ margin-top: -9px;
+                             margin-bottom: -8px;
+							 padding-top: 15px;
+							 padding-bottom: 15px;
+	  
+	  
+	  
+  }
+  
+  
   
   .button.blue {                 /*Whatta hell is that? Это кнопка в самом низу.*/
   height: 25px;
@@ -221,8 +300,10 @@ border-top-color: #3eaac9;}
  }
  
  
- 
- 
+footer.footer{
+	margin-top: -8px;
+	margin-bottom: -7px;
+}
  
  
  
